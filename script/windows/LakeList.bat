@@ -17,4 +17,4 @@ set URL=https://api.machlake.com/lakes
 curl -k -X GET %URL% -H %CONTENT_HEADER% -H %API_HEADER%
 
 :: Return Format
-:: {"data":{"lake":[{"lake_id":"YOUR_LAKE_ID","lake_info":{"lake_name":"sample_lake","lake_plan":"basic","region":"ap-northeast-2","timezone":"Asia/Seoul"}}],"mount":[],"share":[]},"status":"success"}
+:: {"data":{"lake":[{"lake_id":"YOUR_LAKE_ID","lake_info":{"lake_name":"sample_lake","lake_plan":"basic","region":"aws1.kor","timezone":"Asia/Seoul"}}],"mount":[],"share":[]},"status":"success"}
